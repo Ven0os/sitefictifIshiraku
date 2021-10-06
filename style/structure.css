@@ -1,53 +1,17 @@
-/*#test {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 20rem;
-    padding-right: 4rem;
-}*/
-
-#texte {
-    padding-top: 10rem;
-    padding-bottom: 4rem;
-    padding-left: 20rem;
-    padding-right: 15rem;
-}
-
-#reste {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 20rem;
-    padding-right: 4rem;
-}
-
-@media screen and (max-width: 1200px ){
-
-  .card-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 39%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-
-}
-
 body
 {
   display: grid;
   grid-template-rows: 70px 500px 308px;
-}
+} /* Grid */
 
 header
 {
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 2 / 2; /* 1 Line 2Scnd Colums , 1 Line 2Scnd Colums */
 }
 
 main
 {
-  grid-area : 2 / 1 / 3 / 2;
+  grid-area : 2 / 1 / 3 / 2; /* 1 Line 2Scnd Colums , 1 Line 3rth Colums */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,11 +20,5 @@ main
 
 footer
 {
-  grid-area: 3 / 1 / 4 / 2;
-}
-
-div .card-carousel {
-align-items: center;
-justify-content: center;
-
+  grid-area: 3 / 1 / 4 / 2; /* 1 Line 2Scnd Colums , 1 Line 4nd Colums */
 }

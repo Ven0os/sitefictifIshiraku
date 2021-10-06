@@ -11,14 +11,14 @@ background-color:white;
 background-image:url('../images/backgsite.png');
 background-position: center;
 background-repeat: no-repeat;
-background-size:cover;
+background-size:cover; /* Cover background */
 }
 
 .gold {
-	color:#fff;
-	background: linear-gradient(to right, #f7971e, #ffd200);
+	color:#fff; /* Golded Fonts */
+	background: linear-gradient(271deg,#ffb705,#a97e02,#f9c52d,#e9ad00);
 	background-size: 360% 360%;
-	animation: gradient-animation 10s ease infinite;
+	animation: gradient-animation 6s ease infinite;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -60,9 +60,9 @@ background-size:cover;
 	}
 }
 
-.redstoneov {
+.redstoneov { /* Red Animated Fonts */
 	color:#fff;
-  background: linear-gradient(97deg,#c60303,#df2d2d,#9d2323,#ff0000,#ca1616,#f14d4d);
+  background: linear-gradient(100deg,#c60303,#df2d2d,#9d2323,#ff0000,#ca1616,#f14d4d);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
     background-size: 360% 360%;
@@ -146,7 +146,7 @@ h4 {
 }
 
 .centrertexte {
-  text-align: center;
+  text-align: center; /* Center */
 }
 
 .ombre{
@@ -173,8 +173,8 @@ h4 {
 
 .button {
   display: inline-flex;
-	justify-content: center; /* Axe des Y */
-  align-items: center; /* Axe des X */
+	justify-content: center; /* Y */
+  align-items: center; /* X */
   border-radius: 18px;
   background-color: #8b0000;
   border: none;

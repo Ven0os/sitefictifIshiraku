@@ -1,11 +1,14 @@
 /* HTML Set up */
+
+/* Bootstrap Imported Footer */
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans';
 footer {
   background: #191919;
   color: #fff;
   margin: 0;
-  padding-top: 15px; 
-  font-family: 'Open Sans', sans-serif;
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif; /* Footer */
 }
 footer .centered {
   max-width: 1200px;
@@ -14,14 +17,14 @@ footer .centered {
   display: flex;
   justify-content: space-between;
 }
-footer .centered .footer-logo {
+footer .centered .footer-logo { /* Logo */
   width: 20%;
 }
 footer .centered .footer-logo img.logo {
   padding: 30px 20px 10px 20px;
   max-width: 100%;
 }
-footer .centered .footer-contact {
+footer .centered .footer-contact { /* Links */
   width: 20%;
 }
 footer .centered .footer-navigation {
