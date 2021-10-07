@@ -1,26 +1,26 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
-
-
-
-body {
-font-family:'Fira Sans', sans-serif;
-font-weight: 700;
-background-color:white;
-background-image:url('../images/backgsite.png');
-background-position: center;
-background-repeat: no-repeat;
-background-size:cover; /* Cover background */
+body
+{
+	font-family:'Fira Sans', sans-serif;
+	font-weight: 700;
+	background-color:white;
+	background-image:url('../images/backgsite.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	/* Cover background */
 }
 
-.gold {
-	color:#fff; /* Golded Fonts */
+.gold
+{
+	color:#fff;
+	/* Golded Fonts */
 	background: linear-gradient(271deg,#ffb705,#a97e02,#f9c52d,#e9ad00);
 	background-size: 360% 360%;
 	animation: gradient-animation 6s ease infinite;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
 }
 
 @keyframes gradient-animation
@@ -38,7 +38,6 @@ background-size:cover; /* Cover background */
 	100%
 	{
 		background-position: 0% 50%;
-
 	}
 }
 
@@ -60,27 +59,35 @@ background-size:cover; /* Cover background */
 	}
 }
 
-.redstoneov { /* Red Animated Fonts */
+.redstoneov
+{
+	/* Red Animated Fonts */
 	color:#fff;
-  background: linear-gradient(100deg,#c60303,#df2d2d,#9d2323,#ff0000,#ca1616,#f14d4d);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-    background-size: 360% 360%;
-    animation: gradient-animation 7s ease infinite;
-  }
+	background: linear-gradient(100deg,#c60303,#df2d2d,#9d2323,#ff0000,#ca1616,#f14d4d);
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;
+	background-size: 360% 360%;
+	animation: gradient-animation 7s ease infinite;
+}
 
-  @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
-  }
+@keyframes gradient-animation
+{
+	0%
+	{
+		background-position: 0% 50%;
+	}
 
+	50%
+	{
+		background-position: 100% 50%;
+	}
+
+	100%
+	{
+		background-position: 0% 50%;
+	}
+
+}
 
 @-webkit-keyframes Gradient
 {
@@ -100,144 +107,142 @@ background-size:cover; /* Cover background */
 	}
 }
 
-
-.petit {
+.petit
+{
 	color:#fff;
-  font-size:0.7em;
-
+	font-size:0.7em;
 }
 
-.petitfooter {
+.petitfooter
+{
 	color:#fff;
-  font-size:0.7em;
+	font-size:0.7em;
 	text-align: center;
-
 }
 
-
-
-h1 {
-  color:#fff
-  font-size:2vw;
+h1
+{
+	color:#fff  font-size:2vw;
 	font-weight: 900;
-  position: absolute;
-
+	position: absolute;
 }
 
-h2 {
-  color:#fff
-  font-size:1.5vw;
+h2
+{
+	color:#fff  font-size:1.5vw;
 	font-weight: 820;
 	position: absolute;
-
 }
 
-h3 {
-  color:#fff
-  font-size:1vw;
+h3
+{
+	color:#fff  font-size:1vw;
 	font-weight: 750;
 }
 
-h4 {
-  color:#fff
-  font-size:1vw;
+h4
+{
+	color:#fff  font-size:1vw;
 	text-align: center;
-
 }
 
-.centrertexte {
-  text-align: center; /* Center */
+.centrertexte
+{
+	text-align: center;
+	/* Center */
 }
 
-.ombre{
-  text-shadow: 0px 4px 2px rgba(0,0,0,0.40);
+.ombre
+{
+	text-shadow: 0px 4px 2px rgba(0,0,0,0.40);
 }
 
-
-.bordure {
+.bordure
+{
 	border: none;
 	background-color: white;
-  padding: 0.5em;
-  border-radius: 12px;
-  display: table;
-  margin: auto;
+	padding: 0.5em;
+	border-radius: 12px;
+	display: table;
+	margin: auto;
 }
 
-.bordureimg {
-  border: 8px solid black;
-	border-radius: 10px
-  display: table;
-  margin: auto;
+.bordureimg
+{
+	border: 8px solid black;
+	border-radius: 10px  display: table;
+	margin: auto;
 }
 
-
-.button {
-  display: inline-flex;
-	justify-content: center; /* Y */
-  align-items: center; /* X */
-  border-radius: 18px;
-  background-color: #8b0000;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  transition: all 0.5s;
-  cursor: unset;
-  margin: 5px;
+.button
+{
+	display: inline-flex;
+	justify-content: center;
+	/* Y */
+	align-items: center;
+	/* X */
+	border-radius: 18px;
+	background-color: #8b0000;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	transition: all 0.5s;
+	cursor: unset;
+	margin: 5px;
 }
 
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.6s;
+.button span
+{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.6s;
 }
 
-.button span:after {
-  content: '\27E9';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -19px;
-  transition: 0.6s;
+.button span:after
+{
+	content: '\27E9';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -19px;
+	transition: 0.6s;
 }
 
-.button:hover span {
-  padding-right: 25px;
+.button:hover span
+{
+	padding-right: 25px;
 }
 
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
+.button:hover span:after
+{
+	opacity: 1;
+	right: 0;
 }
 
-
-.buttonpetit {
-
-font-size: 16px;
-padding: 12px;
-min-width: 150px;
-
+.buttonpetit
+{
+	font-size: 16px;
+	padding: 12px;
+	min-width: 150px;
 }
 
-.buttongrand {
-
-font-size: 20px;
-padding: 16px;
-min-width: 180px;
-
+.buttongrand
+{
+	font-size: 20px;
+	padding: 16px;
+	min-width: 180px;
 }
 
-
-.buttonfooter {
-
-font-size: 15px;
-padding: 10px;
-min-width: 135px;
-text-align: center;
-
+.buttonfooter
+{
+	font-size: 15px;
+	padding: 10px;
+	min-width: 135px;
+	text-align: center;
 }
 
-
-footer li {
+footer li
+{
 	text-align: center;
 }
